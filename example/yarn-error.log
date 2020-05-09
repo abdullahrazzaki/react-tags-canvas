@@ -1,0 +1,52 @@
+Arguments: 
+  /home/emumba/.nvm/versions/node/v10.16.3/bin/node /home/emumba/.nvm/versions/node/v10.16.3/bin/yarn install
+
+PATH: 
+  /home/emumba/.local/bin:/home/emumba/.nvm/versions/node/v10.16.3/bin:/home/emumba/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.16.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, lstat '/home/emumba/Personal/react-tags-canvas/node_modules/react-scripts/node_modules/@babel/plugin-syntax-object-rest-spread'
+
+npm manifest: 
+  {
+    "name": "react-tags-canvas-example",
+    "homepage": "https://abdullahrazzaki.github.io/react-tags-canvas",
+    "version": "0.0.0",
+    "private": true,
+    "dependencies": {
+      "react": "link:../node_modules/react",
+      "react-dom": "link:../node_modules/react-dom",
+      "react-scripts": "link:../node_modules/react-scripts",
+      "react-tags-canvas": "link:.."
+    },
+    "scripts": {
+      "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
+      "build": "node ../node_modules/react-scripts/bin/react-scripts.js build",
+      "test": "node ../node_modules/react-scripts/bin/react-scripts.js test",
+      "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
